@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- style -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/theme.css">
+
+  <!-- Fontawesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+</head>
+<body>
+  <header id="header" class="header-area">
+    <div class="container mx-auto pt-5 z-50 relative">
+      <div class="relative flex justify-between items-center">
+        <div class="inline-block">
+          <a href="#">
+            <img src="./img/logo.png" alt="logo" class="">
+          </a>
+        </div>
+        <div class="menu-open-close">
+          <div id="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="custom-menu-area">
+      <div class="custom-main-menu h-full flex items-center">
+        <nav class="navbar navbar-expand-lg">
+          <div id="custom-nav">
+            <ul id="customNav" class="navbar-nav font-medium tracking-widest leaeding-7">
+              <li class="py-2.5"><a href="#body" class="uppercase hover:text-red-300 transition duration-300 text-red-300 open">Home <span class="sr-only">(current)</span></a></li> 
+              <li class="py-2.5"><a href="#about" class="uppercase hover:text-red-300 transition duration-300 open">About Us</a></li> 
+              <li class="py-2.5"><a href="#skill" class="uppercase hover:text-red-300 transition duration-300 open">Skills</a></li> 
+              <li class="py-2.5"><a href="#work" class="uppercase hover:text-red-300 transition duration-300 open">Works</a></li> 
+              <li class="py-2.5"><a href="#history" class="uppercase hover:text-red-300 transition duration-300 open">Histroy</a></li> 
+              <li class="py-2.5"><a href="#service" class="uppercase hover:text-red-300 transition duration-300 open">Services</a></li> 
+              <li class="py-2.5"><a href="#" class="uppercase hover:text-red-300 transition duration-300 open">Blog</a></li> 
+              <li class="py-2.5"><a href="#contact" class="uppercase hover:text-red-300 transition duration-300 open">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div> 
+      <div class="header-social-info flex items-center justify-end">
+        <div class="h-social-icon">
+          <ul>
+            <li><a href="#"><i aria-hidden="true" class="fab fa-facebook-f mb-7"></i></a> </li>
+            <li><a href="#"><i aria-hidden="true" class="fab fa-twitter mb-7"></i></a></li>
+            <li><a href="#"><i aria-hidden="true" class="fab fa-instagram mb-7"></i></a></li>
+            <li><a href="#"><i aria-hidden="true" class="fab fa-vimeo mb-7"></i></a></li>
+            <li><a href="#"><i aria-hidden="true" class="fab fa-pinterest mb-7t"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="banner">
+    <div class="container mx-auto">
+      <div class="grid lg:grid-cols-2 md:grid-cols-1 flex items-center h-xl w-full justify-center">
+        <div class="banner-content text-start">
+          <div class="me">It's me</div>
+          <h1 class="font-bold text-5xl my-7 text-gray-700"> Kareem EzZat</h1>
+          <h2 class="text-3xl leading-10 mb-12 max-w-sm">
+            Senior Creative
+            <span class="text-red-300">
+              Designer
+              </span>
+            and Content
+            <span class="text-blue-100">Developer</span>
+          </h2>
+          <a href="/assets/cv.html" data-text="Download Cv" download="" class="btnAnim text-center font-semibold px-12 rounded-full transition duration-300 border-2 border-red-300 py-4">
+            <span>D</span> <span>o</span> <span>w</span> <span>n</span> <span>l</span> <span>o</span> <span>a</span> <span>d</span> <span></span> <span>C</span> <span>v</span>
+          </a>
+        </div>
+        <div class="banner-img self-end lg:block hidden">
+          <img src="./img/banner-img.png" alt="personal pic" class="w-4/5">
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="brand-area -mt-16 z-50 relative">
+    <div class="container mx-auto">
+      <div class="brand-wrap shadow-xl bg-white rounded-full py-14 px-5 z-10">
+        <div id="brand_carousel" class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="opacity-50 filter grayscale">
+              <a href="#">
+                <img src="./img/brand/b1.png" alt="brand" class="w-auto pl-3">
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="opacity-50 filter grayscale">
+              <a href="#">
+                <img src="./img/brand/b2.png" alt="brand" class="w-auto">
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="opacity-50 filter grayscale">
+              <a href="#">
+                <img src="./img/brand/b3.png" alt="brand" class="w-auto">
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="opacity-50 filter grayscale">
+              <a href="#">
+                <img src="./img/brand/b4.png" alt="brand" class="w-auto">
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="opacity-50 filter grayscale">
+              <a href="#">
+                <img src="./img/brand/b5.png" alt="brand" class="w-auto">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="about py-20">
+    <div class="container mx-auto">
+      <div class="flex items-center justify-between">
+        <div class="w-1/2">
+          <img src="./img/about-img.png" alt="personal pic" class="w-full">
+        </div>
+        <div class="lg:w-5/12 w-full ">
+          <div class="section-title">
+            <h2 class="text-5xl mb-16 relative text-gray-700 font-bold">About Myselt</h2>
+          </div> 
+          <div class="mb-12">
+            <p class="mb-4">
+            I’m a Front End Developer. I have a Passion for Creating Clean,
+            Beautiful, Interactive, Minimalistic, Responsive and User Friendly
+            UI, Developed by Modular, Scalable and Functional Code. When,
+            while the lovely valley teems with vapour around me.
+            </p>
+            <p class="mb-4">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div> 
+          <a href="#contact" data-text="Hire Me" class="btnAnim second font-semibold px-12 py-4 rounded-full border-blue-100 border-2 transition duration-300"><span>H</span> <span>i</span> <span>r</span> <span>e</span> <span></span> <span>M</span> <span>e</span></a> 
+          <a href="#history" data-text="Resume" class="btnAnim py-4 font-semibold px-12 rounded-full border-red-300 border-2 transition duration-300"><span>R</span> <span>e</span> <span>s</span> <span>u</span> <span>m</span> <span>e</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="counter-area py-20 bg-blue-light">
+    <div class="container mx-auto">
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-7">
+        <div class="shadow-xl rounded text-center lg:py-7 lg:px-4 py-14 px-8 lg:mb-0 mb-4 hover:transition duration-300">
+          <div class="item">
+            <div class="icon-bg mb-6">
+              <i class="fa fa-archive icon text-4xl leading-extra-loose"></i>
+            </div>
+            <h3 class="text-gray-700 font-semibold pb-5 text-4xl">245</h3>
+            <h5 class="uppercase text-base text-gray-700 font-semibold">total project</h5>
+          </div>
+        </div>
+        <div class="shadow-xl rounded text-center lg:py-7 lg:px-4 py-14 px-8 lg:mb-0 mb-4 hover:transition duration-300">
+          <div class="item">
+            <div class="icon-bg mb-6">
+              <i class="fa fa-trophy icon text-4xl leading-extra-loose"></i>
+            </div>
+            <h3 class="text-gray-700 font-semibold pb-5 text-4xl">535</h3>
+            <h5 class="uppercase text-base text-gray-700 font-semibold">trophy won</h5>
+          </div>
+        </div>
+        <div class="shadow-xl rounded text-center lg:py-7 lg:px-4 py-14 px-8 lg:mb-0 mb-4 hover:transition duration-300">
+          <div class="item">
+            <div class="icon-bg mb-6">
+              <i class="fa fa-users icon text-4xl leading-extra-loose"></i>
+            </div>
+            <h3 class="text-gray-700 font-semibold pb-5 text-4xl">288</h3>
+            <h5 class="uppercase text-base text-gray-700 font-semibold">experiendes staff</h5>
+          </div>
+        </div>
+        <div class="shadow-xl rounded text-center lg:py-7 lg:px-4 py-14 px-8 lg:mb-0 mb-4 hover:transition duration-300">
+          <div class="item">
+            <div class="icon-bg mb-6">
+              <i class="far fa-smile text-4xl leading-extra-loose"></i>
+            </div>
+            <h3 class="text-gray-700 font-semibold pb-5 text-4xl">750</h3>
+            <h5 class="uppercase text-base text-gray-700 font-semibold">happy clients</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skill-area py-20">
+    <div class="container mx-auto">
+      <div class="flex flex-wrap items-center justify-between">
+        <div class="lg:w-2/5 md:w-full pr-4 lg:mb-0 mb-10">
+          <div class="section-title">
+            <h2 class="text-5xl mb-16 relative text-gray-700 font-bold">I Got The Skills</h2>
+          </div>
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
+            quasi mollitia rem quisquam atque pariatur, a ut, amet illum
+            quibusdam facere vitae delectus reiciendis fugit tempora esse sint
+            deserunt dolorum.
+          </p>
+        </div>
+        <div class="lg:w-3/5 md:w-full pl-4">
+          <h3 class="text-lg font-semibold uppercase text-gray-700 mb-1.5">html5</h3>
+          <div class="overflow-visible text-xs flex h-5 rounded-full bg-transparent border-gray-100 border-2 py-1 px-1.5 mb-8">
+            <div
+              style="width: 85%"
+              class="progress-bar
+              relative
+                shadow-none
+                flex flex-col
+                text-center
+                whitespace-nowrap
+                text-white
+                justify-center
+                bg-blue-100
+              "
+            >
+            <div class="progress-value font-bold text-gray-700 absolute text-base right-1.5 -bottom-7">85%</div>
+          </div>
+          </div>
+          <h3 class="text-lg font-semibold uppercase text-gray-700 mb-1.5">css3</h3>
+          <div class="overflow-visible text-xs flex h-5 rounded-full bg-transparent border-gray-100 border-2 py-1 px-1.5 mb-8">
+            <div
+              style="width: 75%"
+              class="progress-bar
+              relative
+                shadow-none
+                flex flex-col
+                text-center
+                whitespace-nowrap
+                text-white
+                justify-center
+                bg-blue-100
+              "
+            >
+            <div class="progress-value font-bold text-gray-700 absolute text-base right-1.5 -bottom-7">85%</div>
+          </div>
+          </div>
+          <h3 class="text-lg font-semibold uppercase text-gray-700 mb-1.5">j-query</h3>
+          <div class="overflow-visible text-xs flex h-5 rounded-full bg-transparent border-gray-100 border-2 py-1 px-1.5 mb-8">
+            <div
+              style="width: 90%"
+              class="progress-bar
+              relative
+                shadow-none
+                flex flex-col
+                text-center
+                whitespace-nowrap
+                text-white
+                justify-center
+                bg-blue-100
+              "
+            >
+            <div class="progress-value font-bold text-gray-700 absolute text-base right-1.5 -bottom-7">85%</div>
+            </div>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-700 mb-1.5">Bootstrap</h3>
+          <div class="overflow-visible text-xs flex h-5 rounded-full bg-transparent border-gray-100 border-2 py-1 px-1.5 mb-8">
+            <div
+              style="width: 60%"
+              class="progress-bar
+              relative
+                shadow-none
+                flex flex-col
+                text-center
+                whitespace-nowrap
+                text-white
+                justify-center
+                bg-blue-100
+              "
+            >
+              <div class="progress-value font-bold text-gray-700 absolute text-base right-1.5 -bottom-7">85%</div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+    </div>
+  </section>
+  <section class="work-area py-20 bg-blue-light">
+    <div class="container mx-auto">
+      <div class="grid lg:grid-cols-2 grid-cols-1 mb-12 flex items-end">
+        <div class="section-title">
+          <h2 class="text-5xl mb-16 relative mb-17 text-gray-700 font-bold">Latest Works</h2>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </div> 
+        <div>
+          <ul class="flex lg:mt-0 mt-6">
+            <li data-filter=".all" class="p-4 cursor-pointer pl-0 text-red-300">All Categories</li> 
+            <li data-filter=".branding" class="p-4 cursor-pointer hover:text-red-300">Branding</li>
+            <li data-filter=".creative" class="p-4 cursor-pointer hover:text-red-300">Creative Work</li>
+            <li data-filter=".web-design" class="p-4 cursor-pointer pr-0 hover:text-red-300">Web Design</li>
+        </ul>
+        </div>
+      </div>
+      <div class="filter-content">
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
+          <div class="single-work rounded">
+            <div class="relative mb-7">
+              <div class="thumb">
+                <div class="overlay overlay-bg transition duration-300-all rounded">
+                </div>
+                <img src="./img/w1.jpg" alt="work" class="transition duration-300-all rounded">
+              </div>
+              <div class="middle transition duration-300">
+                <h4 class="text-white font-semibold text-xl">Video Editing</h4>
+                <p class="text-white">Video Product</p>
+              </div>
+            </div>
+          </div>
+          <div class="single-work rounded">
+            <div class="relative mb-7">
+              <div class="thumb">
+                <div class="overlay overlay-bg transition duration-300-all rounded">
+                </div>
+                <img src="./img/w2.jpg" alt="work" class="transition duration-300-all rounded">
+              </div>
+              <div class="middle transition duration-300">
+                <h4 class="text-white font-semibold text-xl">Ui/Ux</h4>
+                <p class="text-white">Web Design</p>
+              </div>
+            </div>
+          </div>
+          <div class="single-work rounded">
+            <div class="relative mb-7">
+              <div class="thumb">
+                <div class="overlay overlay-bg transition duration-300-all rounded">
+                </div>
+                <img src="./img/w3.jpg" alt="work" class="transition duration-300-all rounded">
+              </div>
+              <div class="middle transition duration-300">
+                <h4 class="text-white font-semibold text-xl">Creative Shot</h4>
+                <p class="text-white">Photography</p>
+              </div>
+            </div>
+          </div>
+          <div class="single-work rounded">
+            <div class="relative mb-7">
+              <div class="thumb">
+                <div class="overlay overlay-bg transition duration-300-all rounded">
+                </div>
+                <img src="./img/w4.jpg" alt="work" class="transition duration-300-all rounded">
+              </div>
+              <div class="middle transition duration-300">
+                <h4 class="text-white font-semibold text-xl">Creative Design</h4>
+                <p class="text-white">Unique design</p>
+              </div>
+            </div>
+          </div>
+          <div class="single-work rounded">
+            <div class="relative mb-7">
+              <div class="thumb">
+                <div class="overlay overlay-bg transition duration-300-all rounded">
+                </div>
+                <img src="./img/w5.jpg" alt="work" class="transition duration-300-all rounded">
+              </div>
+              <div class="middle transition duration-300">
+                <h4 class="text-white font-semibold text-xl">Web Design Editing</h4>
+                <p class="text-white">Onepage Product</p>
+              </div>
+            </div>
+          </div>
+          <div class="single-work rounded">
+            <div class="relative mb-7">
+              <div class="thumb">
+                <div class="overlay overlay-bg transition duration-300-all rounded">
+                </div>
+                <img src="./img/w6.jpg" alt="work" class="transition duration-300-all rounded">
+              </div>
+              <div class="middle transition duration-300">
+                <h4 class="text-white font-semibold text-xl">Brand Design</h4>
+                <p class="text-white">Brand Logo Project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="history-area py-20">
+    <div class="container mx-auto">
+      <div class="section-title">
+        <h2 class="text-5xl mb-16 relative text-gray-700 font-bold">Job History</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by
+          the readable content of a page when looking at its layout.
+        </p>
+      </div> 
+      <div class="grid lg:grid-cols-2 grid-cols-1 gap-7">
+        <div class="job-item mb-7 rounded-lg px-7 py-10 transition duration-300  hover:text-white">
+          <div class="flex justify-between">
+            <div>
+              <h4 class="font-bold text-lg">Senior Creative Design</h4>
+              <p class="mb-4">Mansoura FCIS,Egypt</p>
+            </div>
+            <div>
+              <a href="#" data-text="Jul '15 to Present" class="font-semibold px-12 py-4 rounded-full btnAnim border-blue-100 border-2 transition duration-300"><span>J</span><span>u</span><span>l</span> <span>'</span><span>1</span><span>5</span> <span>t</span><span>o</span> <span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span></a>
+            </div>
+          </div>
+          <div class="text-base">
+            AIt has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged.
+          </div>
+        </div>
+        <div class="job-item mb-7 rounded-lg px-7 py-10 transition duration-300  hover:text-white">
+          <div class="flex justify-between">
+            <div>
+              <h4 class="font-bold text-lg">Front End Designer</h4>
+              <p class="mb-4">Mansoura FCIS,Egypt</p>
+            </div>
+            <div>
+              <a href="#" data-text="Jul '15 to Present" class="font-semibold px-12 py-4 rounded-full btnAnim border-blue-100 border-2 transition duration-300"><span>J</span><span>u</span><span>l</span> <span>'</span><span>1</span><span>5</span> <span>t</span><span>o</span> <span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span></a>
+            </div>
+          </div>
+          <div class="text-base">
+            AIt has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged.
+          </div>
+        </div>
+        <div class="job-item mb-7 rounded-lg px-7 py-10 transition duration-300  hover:text-white">
+          <div class="flex justify-between">
+            <div>
+              <h4 class="font-bold text-lg">Back End Developer</h4>
+              <p class="mb-4">Mansoura FCIS,Egypt</p>
+            </div>
+            <div>
+              <a href="#" data-text="Jul '15 to Present" class="font-semibold px-12 py-4 rounded-full btnAnim border-blue-100 border-2 transition duration-300"><span>J</span><span>u</span><span>l</span> <span>'</span><span>1</span><span>5</span> <span>t</span><span>o</span> <span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span></a>
+            </div>
+          </div>
+          <div class="text-base">
+            AIt has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged.
+          </div>
+        </div>
+        <div class="job-item mb-7 rounded-lg px-7 py-10 transition duration-300  hover:text-white">
+          <div class="flex justify-between">
+            <div>
+              <h4 class="font-bold text-lg">UI/UX Desinger</h4>
+              <p class="mb-4">Mansoura FCIS,Egypt</p>
+            </div>
+            <div>
+              <a href="#" data-text="Jul '15 to Present" class="font-semibold px-12 py-4 rounded-full btnAnim border-blue-100 border-2 transition duration-300"><span>J</span><span>u</span><span>l</span> <span>'</span><span>1</span><span>5</span> <span>t</span><span>o</span> <span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span></a>
+            </div>
+          </div>
+          <div class="text-base">
+            AIt has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="service-area py-20 bg-blue-light">
+    <div class="container mx-auto">
+      <div class="section-title mb-16">
+        <h2 class="text-5xl mb-16 relative text-gray-700 font-bold">Service Offers</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by
+          the readable content of a page when looking at its layout.
+        </p>
+      </div> 
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-7">
+        <div class="shadow-xl rounded text-center lg:py-7 lg:px-4 py-14 px-8 lg:mb-0 mb-4 hover:transition duration-300">
+          <div class="item">
+            <div class="icon-bg mb-6">
+              <i class="far fa-gem text-4xl leading-extra-loose"></i>
+            </div>
+            <h4 class="text-gray-700 font-semibold my-5 text-lg">Web Design</h4>
+            <p class="mb-4">
+              If you’re looking blank casvsettes on the web, you may confuse.
+            </p>
+          </div>
+        </div>
+        <div class="shadow-xl rounded text-center lg:py-7 lg:px-4 py-14 px-8 lg:mb-0 mb-4 hover:transition duration-300">
+          <div class="item">
+            <div class="icon-bg mb-6">
+              <i class="fas fa-chart-bar text-4xl leading-extra-loose"></i>
+            </div>
+            <h4 class="text-gray-700 font-semibold my-5 text-lg">App Development</h4>
+            <p class="mb-4">
+              If you’re looking blank casvsettes on the web, you may confuse.
+            </p>
+          </div>
+        </div>
+        <div class="shadow-xl rounded text-center lg:py-7 lg:px-4 py-14 px-8 lg:mb-0 mb-4 hover:transition duration-300">
+          <div class="item">
+            <div class="icon-bg mb-6">
+              <i class="far fa-lightbulb icon text-4xl leading-extra-loose"></i>
+            </div>
+            <h4 class="text-gray-700 font-semibold my-5 text-lg">Web Developer</h4>
+            <p class="mb-4">
+              If you’re looking blank casvsettes on the web, you may confuse.
+            </p>
+          </div>
+        </div>
+        <div class="shadow-xl rounded text-center lg:py-7 lg:px-4 py-14 px-8 lg:mb-0 mb-4 hover:transition duration-300">
+          <div class="item">
+            <div class="icon-bg mb-6">
+              <i class="fas fa-tachometer-alt icon text-4xl leading-extra-loose"></i>
+            </div>
+            <h4 class="text-gray-700 font-semibold my-5 text-lg">Web Development</h4>
+            <p class="mb-4">
+              If you’re looking blank casvsettes on the web, you may confuse.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonial-area py-20 bg-white">
+    <div class="container mx-auto">
+      <div id="test_slider" class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="slider-item text-center">
+            <img src="./img/quote.png" class="w-auto mx-auto">
+            <h4 class="font-bold text-3xl text-gray-700 mt-10 mb-2">Sara EzZat</h4>
+            <ul class="flex justify-center mb-8">
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+            </ul>
+            <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother <br> Earth. If you think about it, you travel across her face <br>and She is the host to your journey.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slider-item text-center">
+            <img src="./img/quote.png" class="w-auto mx-auto">
+            <h4 class="font-bold text-3xl text-gray-700 mt-10 mb-2">Sara EzZat</h4>
+            <ul class="flex justify-center mb-8">
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+            </ul>
+            <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother <br> Earth. If you think about it, you travel across her face <br>and She is the host to your journey.</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slider-item text-center">
+            <img src="./img/quote.png" class="w-auto mx-auto">
+            <h4 class="font-bold text-3xl text-gray-700 mt-10 mb-2">Sara EzZat</h4>
+            <ul class="flex justify-center mb-8">
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+              <li><a href="#"><i class="fas fa-star text-yellow-500"></i></a></li>
+            </ul>
+            <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother <br> Earth. If you think about it, you travel across her face <br>and She is the host to your journey.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <section class="contact-area py-20 bg-red-300">
+    <div class="container mx-auto">
+      <div class="contact-title mb-12 text-center">
+        <h2 class="text-white mb-16 text-5xl relative">Contact me</h2>
+        <p class="text-white max-w-lg mx-auto">
+          It is a long established fact that a reader will be distracted by
+          the readable content of a page when looking at its layout. some
+          for as low as $.17 each.
+        </p>
+      </div>
+      <div class="grid md:grid-cols-3 grid-cols-1 gap-7 text-center">
+        <h4 class="text-white font-semibold text-lg">+22 12345 678 9012</h4>
+        <h4 class="text-white font-semibold text-lg">information@example.com</h4>
+        <h4 class="text-white font-semibold text-lg">KarimEzZat.me</h4>
+      </div>
+      <div class="text-center mt-16">
+        <a href="#" data-text="Hire Me" class="py-4 font-semibold px-12 rounded-full btnAnim transition duration-300 mt-"><span>H</span> <span>i</span> <span>r</span> <span>e</span> <span></span> <span>M</span> <span>e</span></a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-area py-28 ">
+    <div class="container mx-auto">
+      <a href="#"><img src="./img/logo.png" alt="Logo" class="mx-auto"></a>
+      <h4 class="font-bold text-2xl mt-12 text-center">Follow Me</h4>
+      <div class="footer-social text-center mt-6 mb-12">
+        <a href="#" class="px-5 transition duration-300 "><i class="fab fa-facebook-f transition duration-300 hover:text-red-300 text-4xl text-gray-200"></i></a> 
+        <a href="#" class="px-5 transition duration-300 "><i class="fab fa-twitter transition duration-300 hover:text-red-300 text-4xl text-gray-200"></i></a> 
+        <a href="#" class="px-5 transition duration-300 "><i class="fab fa-dribbble transition duration-300 hover:text-red-300 text-4xl text-gray-200"></i></a> 
+        <a href="#" class="px-5 transition duration-300 "><i class="fab fa-behance transition duration-300 hover:text-red-300 text-4xl text-gray-200"></i></a>
+      </div>
+      <p class="col-lg-8 col-sm-12 text-center mx-auto">
+        Copyright ©All rights reserved | KARMEN is made with
+        <i aria-hidden="true" class="far fa-heart"></i> by
+        <a href="#" target="_blank" class="text-red-300">KarimEzZat</a></p>
+    </div>
+  </footer>
+  <div id="back-top" class="transition duration-300 fixed bottom-7 righ z-9999 cursor-pointer">
+    <a title="Go to Top" href="#" class="bg-blue-100 text-white block text-center w-8 h-8 rounded-t px-2 pt-2 pb-2">
+      <i class="lnr lnr-arrow-up text-lg leading-1"></i>
+    </a>
+  </div>
+
+  <!-- owl carousel -->
+  <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="./js/index.js"></script>
+  <!-- <script>
+    $(document).ready(function(){
+      $('#nav-icon').click(function(){
+        $(this).toggleClass('open');
+      });
+      var backTop = document.getElementById("back-top");
+
+      window.onscroll = function() {scrollFuntion()};
+
+      function scrollFuntion() {
+        var showAfter = 100;
+       
+        if ($(this).scrollTop() > showAfter) {
+            // console.log('dkdkd');
+            backTop.style.display = "block";     
+            $("#back-top").addClass("back-top-animation"); 
+            // backTop.addClass("back-top-animation");      
+          } else {
+            backTop.style.display = "none";
+            $("#back-top").removeClass("back-top-animation"); 
+          }
+        };
+
+        backTop.click (function() {
+          $('html, body').animate({scrollTop: 0}, 800);
+          return false;
+        });
+
+    });
+  </script> -->
+
+</body>
+</html>
