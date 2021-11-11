@@ -1,4 +1,9 @@
 $(document).ready(function(){
+	console.log(document.getElementById('preloader').style);
+	setTimeout(() => {
+		document.getElementById('preloader').style.display = 'none';
+	}, 2000);
+
 	var isMenuOpen = false;
 	$('#nav-icon').click(function(){
 		isMenuOpen = !isMenuOpen;
@@ -11,8 +16,6 @@ $(document).ready(function(){
 			$(this).removeClass('open');
 			$(".custom-menu-area").removeClass("menu-open");
 		}
-
-
 	});
 
 	var backTop = document.getElementById("back-top");

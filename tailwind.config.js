@@ -44,7 +44,11 @@ module.exports = {
 
       height: {
         xl: '35.7rem',
-      }
+      },
+
+      zIndex: {
+        '9999': 9999,
+      },
     }
   },
   variants: {
