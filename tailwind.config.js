@@ -60,7 +60,7 @@ module.exports = {
         '.container': {
           maxWidth: '100%',
           '@screen sm': {
-            maxWidth: '540px',
+            maxWidth: '345px',
           },
           '@screen md': {
             maxWidth: '720px',
