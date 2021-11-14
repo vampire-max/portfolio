@@ -23,7 +23,7 @@ $(document).ready(function(){
 	window.onscroll = function() {scrollFuntion()};
 
 	function scrollFuntion() {
-		var showAfter = 100;
+		var showAfter = 10;
 		if ($(this).scrollTop() > showAfter) {
 			backTop.style.display = "block";
 			$("#back-top").addClass("back-top-animation");
@@ -72,5 +72,54 @@ $(document).ready(function(){
 
 	$( ".owl-prev").html('<i class="lnr lnr-arrow-left"></i>');
 	$( ".owl-next").html('<i class="lnr lnr-arrow-right"></i>');
+
+	wow = new WOW(
+		{
+			boxClass: 'wow',
+			animateClass: 'animated',
+			offset: 0,
+			mobile: true,
+			live: true
+		}
+	)
+	wow.init();
+
+	var roundLogEl = document.getElementsByClassName('counter1');
+
+	anime({
+		targets: roundLogEl,
+		innerHTML: [0, 245],
+		easing: 'linear',
+		round: 1 // Will round the animated value to 1 decimal
+	});
+
+	var roundLogEl1 = document.getElementsByClassName('counter2');
+
+	anime({
+		targets: roundLogEl1,
+		innerHTML: [0, 535],
+		easing: 'linear',
+		round: 1 // Will round the animated value to 1 decimal
+	});
+
+	var roundLogEl2 = document.getElementsByClassName('counter3');
+
+	anime({
+		targets: roundLogEl2,
+		innerHTML: [0, 288],
+		easing: 'linear',
+		round: 1 // Will round the animated value to 1 decimal
+	});
+
+	var roundLogEl3 = document.getElementsByClassName('counter4');
+
+	anime({
+		targets: roundLogEl3,
+		innerHTML: [0, 750],
+		easing: 'linear',
+		round: 1 // Will round the animated value to 1 decimal
+	});
+
+
 
 });
